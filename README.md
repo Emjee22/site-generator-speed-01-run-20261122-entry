@@ -25,7 +25,7 @@ A faster drop-in replacement for [makefun-site 1.0.0](https://make.fun/c/site-ge
 - **Differential tests:** 83 crafted edge cases (front-matter refusals, unicode slugs, heading/list/fence edges, inline `*`/`**` runs, link resolution, template errors, include depth, shadowing, pagination, tag spellings) — all 83 byte-identical to the baseline run as a black box.
 - **Speed (same harness, same machine, 9 runs each):** this entry median **331 ms** CPU for the 3 cases (range 313–458 ms); baseline makefun-site 1.0.0 median **629 ms** (range 557–685 ms). About **1.9× faster, 47% less CPU**; the ranges do not overlap. The practice-set timing is a local measurement; the final ranking runs on the scored round's set.
 - **Grader simulation:** run from a different working directory as uid 65534, read-only inputs, output directory mode 777 — exit 0, answers 3/3 exact.
-- **`grade-local`:** 3/3 cases passed, `prize_eligible: true`, result `35df16cd605185fb6c52aa276a05a55ce0ecaaa5df6d0c17219ca017dc77519a`.
+- **`grade-local`:** 3/3 cases passed, `prize_eligible: true`, result `0e6bbcf766151dff2828936fd89339715b09ce53e32fcfdcda6d5aed25302d93`.
 
 ## Files
 
